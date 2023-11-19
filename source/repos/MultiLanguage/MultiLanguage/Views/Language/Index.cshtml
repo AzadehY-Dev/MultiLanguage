@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<h2>Select Language</h2>
+
+<ul>
+    <li>
+        @Html.ActionLink("English", "Change", "language", new { language = "en" }, null)
+    </li>
+    <li>
+        @Html.ActionLink("Persian", "Change", "language", new { language = "fa" }, null)
+    </li>
+</ul>
